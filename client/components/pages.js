@@ -4,6 +4,7 @@ import {Component} from 'cerebral-view-react';
 import {Meteor} from 'meteor/meteor';
 
 const PageIndex = Component({
+  loading: ['pages', 'loading'],
   page: ['pages', 'page']
 }, {
   mixins: [ReactMeteorData],

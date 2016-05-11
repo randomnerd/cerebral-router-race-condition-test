@@ -11,7 +11,5 @@ const app = (
 );
 
 Meteor.startup(() => {
-  Meteor.subs = new SubsManager();
-  Meteor.subs.subscribe('pages');
   ReactDOM.render(app, document.getElementById('react-root'));
 });
